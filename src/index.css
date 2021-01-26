@@ -1,0 +1,63 @@
+body {
+    background-color: rgba(199,199,199,0.26);
+}
+.left {
+    min-width: 250px;
+    border-right: 2px solid rgb(102, 102, 102);
+    border-bottom: 2px solid rgb(102, 102, 102);;
+}
+
+.min-max {
+    width: 80px;
+    margin: 0 5px;
+}
+
+.currency{
+    width: 70px;
+    height: 30px;
+    border: 1px solid rgb(102, 102, 102);
+}
+
+.usd {
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.uah {
+    position: relative;
+    left: -2px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #fff;
+}
+
+.right {
+    max-height: 80vh;
+    overflow-y: scroll;
+    padding: 0 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-bottom: 2px solid rgb(102, 102, 102);
+}
+
+.prod_card {
+    display: flex;
+    width: 40%;
+    margin: 2%;
+    border: 2px solid rgb(102, 102, 102);
+    border-radius: 5px;
+    padding: 10px;
+}
+.prod_card img {
+    border: 1px solid rgb(102, 102, 102);
+    border-radius: 8px;
+    min-width: 30%;
+    height: auto;
+}
+
+.prod_info {
+    text-align: justify;
+    padding: 0 5px;
+}
+
